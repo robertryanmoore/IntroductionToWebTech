@@ -1,0 +1,24 @@
+
+
+.colwrapper, .footer {
+    width: 1020px;
+}
+
+.lctol, .ctcol, .rtcol{
+    width: 300px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.ltcol, .ctcol{
+    float: left;
+}
+
+.rtcol{
+    float: right;
+}
+
+.footer{
+    width: 1020px;
+    float: left;
+}

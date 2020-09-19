@@ -1,0 +1,41 @@
+h1{
+    margin: 50px;
+    padding: 20px;
+    border: 10px solid #f00;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 20px;
+}
+.navbar-items {
+    list-style: none;
+}
+
+.navbar-items li {
+    display: inline;
+}
+
+#navbar {
+    background-color: azure;
+    /* Provides some padding to top and bottom*/
+    padding-left: 20px 0 20px 0;;
+}
+
+.navbar-items{
+    /*We want list items with no bullet points and anchored to the left*/
+    list-style: none;
+    padding: 3px;
+}
+
+.navbar-items li{
+    /*Removes the bullet points and give it breathing between buttons*/
+    display: inline;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.navbar-items li a {
+    /*Removes the underlining from heperlinks*/
+    text-decoration: none;
+}

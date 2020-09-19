@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+         
+        <form id="profile-form" 
+        action="/createCustomer"
+        method="post">
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName">
+            </div>
+            <div>
+                <label for="lasrName">Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label for="repeatPassword">Repeat Password</label>
+                <input type="password" name="repeatPassword">
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender">
+                    <option value="M">M</option>
+                    <option value="G">G</option>
+                </select>
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <textarea name="description" cols="100" rows="8"></textarea>
+            </div>
+            <input type="submit" value="submit this form">
+        </form>
+    </body>
+</html>
