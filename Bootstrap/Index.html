@@ -54,14 +54,38 @@
       </div>
     </nav>
 
-    <main role="main" class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+  <div class="container">
+    <div class="row">
+       <div class="col-md-12">
+        <div class="jumbotron text-center">
+            <h1>Welcome to our website</h1>
+            <p>You will find here lots of good stuff</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <form action>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input name="firstName" type="text" class="form-control"/>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input name="lastName" type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input name="email" type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <button id="submitBtn" class="btn btn-primary">Submit</button>
+                <button id="ResetBtn" class="btn btn-danger">Reset</button>
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-
-    </main><!-- /.container -->
+  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
